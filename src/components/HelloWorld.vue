@@ -17,7 +17,8 @@ export default {
   },
   methods: {
     triggerEmit(val) {
-      this.$emit('trigger-emit', val)
+      this.count++
+      //this.$emit('trigger-emit', val)
     }
   },
 }
