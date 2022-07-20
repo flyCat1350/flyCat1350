@@ -12,9 +12,9 @@ export default {
     HelloWorld
   },
   mounted() {
-    this.$on('trigger-emit', data => {
-      alert(data)
-    })
+    //this.$on('trigger-emit', data => {
+    //  alert(data)
+    //})
   },
   methods: {
     triggerEmit(val) {
